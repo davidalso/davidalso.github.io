@@ -208,7 +208,7 @@ hr {
         display: none; }
     .game-container .game-message.game-won {
       background: url("../images/keplers_supernova.jpg");
-      color: #f9f6f2; }
+      }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
