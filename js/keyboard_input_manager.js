@@ -133,8 +133,10 @@ KeyboardInputManager.prototype.restart = function (event) {
 };
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
-  event.preventDefault();
-  this.emit("keepPlaying");
+  //event.preventDefault();
+  //this.emit("keepPlaying");
+  window.open("http://en.wikipedia.org/wiki/Kepler%27s_Supernova");
+
 };
 
 KeyboardInputManager.prototype.bindButtonPress = function (selector, fn) {

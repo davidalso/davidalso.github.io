@@ -107,7 +107,8 @@ a {
   color: #8f7a66;
   font-weight: bold;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 
 a:visited {
@@ -206,7 +207,7 @@ hr {
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: url("../images/keplers_supernova.jpg");
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -614,7 +615,7 @@ hr {
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
+        background: url("../images/keplers_supernova.jpg");
         color: #f9f6f2; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
